@@ -20,7 +20,9 @@ public class PruevaPersona {
        // importante decir que cada objeto apuna a diferentes objetos en memoria
         Persona persona2;
         persona2 = new Persona();
-        System.out.println("persona2 = "+ persona2);
+
+
+        System.out.println("persona2 = "+ persona2.name);
        persona2.information();
     }
 }
